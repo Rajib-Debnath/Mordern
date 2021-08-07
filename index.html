@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>My PSD Website</title>
+   <link rel="shortcut icon" type="image/x-icon" href="resosuces/img/favicon.png">
+   <!-- GOOGLE FONT -->
+   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet"> 
+   <!-- FONT AWESOME -->
+   <script src="https://kit.fontawesome.com/a739d7064a.js" crossorigin="anonymous"></script>
+   <!-- resosuces file-->
+   <link rel="stylesheet" href="resosuces/css/style.css">
+   <link rel="stylesheet" href="resosuces/css/responsive.css">
+   <!-- vendors file -->
+   <link rel="stylesheet" href="vendors/css/gird.css">
+   <link rel="stylesheet" href="vendors/css/normalize.css">
+   <link rel="stylesheet" href="vendors/css/animate-crickel.css">
+   <link rel="stylesheet" href="vendors/css/slick.css">
+   <link rel="stylesheet" href="vendors/css/slick-theme.css">
+ </head>
+ <body>
+ 
+ <!-- START HEADER SECTION -->
+ 
+ <header>
+   <nav>
+     <div class="row">
+	   <a href="#">
+	     <img src="resosuces/img/logo.png" alt="logo" class="logo">
+	   </a>
+	   <ul class="main-nav">
+	     <li><a href="#">Home</a></li>
+	     <li><a href="#about">About</a></li>
+	     <li><a href="#work">Work</a></li>
+	     <li><a href="#services">Services</a></li>
+	     <li><a href="#Blog">Blog</a></li>
+	     <li><a href="#contact">Contact</a></li>
+	   </ul>
+	   <div class="mobile-menu">
+	     <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+		 <div id="myNav" class="overlay">
+		 <a href="javascript:void(0)" onclick="closeNav()" class="closebtn"><i class="fas fa-times"></i></a>
+		 <div class="overlay-content">
+		    <a onclick="closeNav()" href="#">Home</a>
+			<a onclick="closeNav()" href="#about">About</a>
+			<a onclick="closeNav()" href="#work">Work</a>
+			<a onclick="closeNav()" href="#services">Services</a>
+			<a onclick="closeNav()" href="#Blog">Blog</a>
+			<a onclick="closeNav()" href="#contact">Contact</a>
+		 </div>
+		 </div>
+	   </div>
+	 </div>
+   </nav>
+   <div class="row">
+     <div class="hero-text-box">
+	   <h2>Creative Template</h2>
+	   <h1>Welcome to MoGo</h1>
+	   <a href="#" class="btn btn-hero">Learn More</a>
+	 </div>
+   </div>
+ </header>
+ 
+ <!-- END HEADER SECTION -->
+ 
+ <!-- START ABOUT SECTION  -->
+ 
+ <section class="about-section js--about-section" id="about">
+   <div class="row">
+     <h3>What we do</h3>
+	 <h2>Story about us</h2>
+	 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   </div>
+   <div class="row">
+     <div class="col span_1_of_3 box">
+	    <img src="resosuces/img/About01.jpg" class="about-img" alt="img02">
+	 </div>
+	 <div class="col span_1_of_3 box">
+	   <img src="resosuces/img/About02.jpg" class="about-img" alt="img03">
+	 </div>
+	 <div class="col span_1_of_3 box">
+	   <img src="resosuces/img/About03.jpg" class="about-img" alt="img04">
+	 </div>
+   </div>
+ </section>
+ <section class="skill-section">
+   <div class="row">
+    <div class="col span_1_of_5 box">
+	   <svg class="radial-progress Web-Design-Projects" data-percentage="42" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">42%</text>
+      </svg>
+	  <h4>Web Design Projects</h4>
+	 </div>
+	 <div class="col span_1_of_5 box">
+	   <svg class="radial-progress happy-client" data-percentage="123" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">123%</text>
+      </svg>
+	  <h4>happy client</h4>
+	 </div>
+	 <div class="col span_1_of_5 box">
+	   <svg class="radial-progress award-winner" data-percentage="15" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">15%</text>
+      </svg>
+	  <h4>award winner</h4>
+	 </div>
+	 <div class="col span_1_of_5 box">
+	   <svg class="radial-progress cup-of-coffee" data-percentage="99" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">99%</text>
+      </svg>
+	  <h4>cup of coffee</h4>
+	 </div>
+	 <div class="col span_1_of_5 box">
+	   <svg class="radial-progress members" data-percentage="24" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">24%</text>
+      </svg>
+	  <h4>members</h4>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- END ABOUT SECTION  -->
+ 
+ <!-- START WORK SECTION -->
+ 
+ <section class="services-section" id="work">
+   <div class="row">
+     <h3>We work with</h3>
+	 <h2>Amazing Services</h2>
+   </div>
+   <div class="row">
+     <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="far fa-clock"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Photography</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	      <i class="fas fa-desktop"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Web Design</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fas fa-code"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Web Devolopment</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+   </div>
+   
+   <div class="row">
+     <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fab fa-searchengin"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Seo</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fas fa-video"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Ghaph Design</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fas fa-home"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Css/Html</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- END WORK SECTION -->
+ 
+ <!-- START SERVICES SECTION -->
+ 
+ <section class="service" id="services">
+   <div class="row">
+     <h3>Service</h3>
+	 <h2>what we do</h2>
+	 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   </div>
+   <div class="row space-img">
+     <div class="col span_1_of_2">
+	   <img src="resosuces/img/what-we-do-section.jpg" alt="img05">
+	 </div>
+	 <div class="col span_1_of_2 space-review">
+	   <h3 class="photography">Photography</h3>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 </div>
+   </div>
+ </section>
+ 
+<!-- testimonial-section -->
+
+ <section class="testimonial-section">
+   <div class="row">
+     <h2>Testimonial</h2>
+   </div>
+   <div class="row">
+     <div class="slider">
+	 
+	   <div>
+	     <blockquote class="blockquote">
+		   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+		   <footer class="blockquote-footer">
+		     Mehrab Hossen From <a href="#">FMH Cloup</a>
+		   </footer>
+		 </blockquote>
+	   </div>
+	   
+	   <div>
+	     <blockquote class="blockquote">
+		   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+		   <footer class="blockquote-footer">
+		     Tomal Khan From <a href="#">FMH Cloup</a>
+		   </footer>
+		 </blockquote>
+	   </div>
+	   
+	 </div>
+   </div>
+ </section>
+ 
+<!-- team section -->
+
+ <section class="team-section">
+   <div class="row">
+     <h3>Who we are</h3>
+	 <h2>Meet our team</h2>
+	 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   </div>
+   <div class="row">
+     <div class="team-area">
+	   <div class="col span_1_of_3">
+	     <div class="single-team">
+		   <div class="img-area">
+		     <img src="resosuces/img/team-person01.jpg" class="img-responsive" alt="img06">
+			 <div class="social">
+			   <ul class="List-inline">
+			      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="img-text">
+		     <h4>John Doe</h4>
+			 <h5>Front-End Developer</h5>
+		   </div>
+		 </div>
+	   </div>
+	   <div class="col span_1_of_3">
+	     <div class="single-team">
+		   <div class="img-area">
+		     <img src="resosuces/img/team-person02.jpg" class="img-responsive" alt="img07">
+			 <div class="social">
+			   <ul class="List-inline">
+			      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="img-text">
+		     <h4>Dave Wood</h4>
+			 <h5>Back-End Developer</h5>
+		   </div>
+		 </div>
+	   </div>
+	   <div class="col span_1_of_3">
+	     <div class="single-team">
+		   <div class="img-area">
+		     <img src="resosuces/img/team-person03.jpg" class="img-responsive" alt="img08">
+			 <div class="social">
+			   <ul class="List-inline">
+			      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="img-text">
+		     <h4>Claire Chedd</h4>
+			 <h5>Graph Desiginar</h5>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+   </div>
+   
+   <div class="row carosul-img">
+     <img src="resosuces/img/curosal-img.png" alt="img09">
+   </div>
+ </section>
+ 
+<!-- some-of-our-work-section -->
+
+ <section class="some-of-our-work-section">
+   <div class="row">
+     <h3>What we do</h3>
+	 <h2>some of our work</h2>
+	 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   </div>
+   <div class="row our-work-img">
+     <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section01.jpg">
+	   <img src="resosuces/img/work-section01.jpg" alt="img10">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section02.jpg">
+	   <img src="resosuces/img/work-section02.jpg" alt="img11">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section05.jpg">
+	   <img src="resosuces/img/work-section05.jpg" alt="img12">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section06.jpg">
+	   <img src="resosuces/img/work-section06.jpg" alt="img-13">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section03.jpg">
+	   <img src="resosuces/img/work-section03.jpg" alt="img-14">
+	   </a>
+	 </div>
+   </div>
+   
+ <!-- testimonial-section02 -->
+ 
+   <div class="row testimonial-section02">
+     <div class="slider">
+	   <div>
+	     <blockquote class="blockquote">
+		   <div class="textimonial-img">
+		     <img src="resosuces/img/textimonial-section.png" alt="img15">
+		   </div>
+		   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+		   <footer class="tesmonial-footer">
+	        Mehrab Hossen <a href="#">MH Clup</a>
+	       </footer>
+		 </blockquote>
+	   </div>
+	   <div>
+	     <blockquote class="blockquote">
+		   <div class="textimonial-img">
+		     <img src="resosuces/img/team-person03.jpg" alt="img16">
+		   </div>
+		   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+		   <footer class="tesmonial-footer">
+	        Mehrab Hossen <a href="#">MH Clup</a>
+	       </footer>
+		 </blockquote>
+	   </div>
+	   <div>
+	     <blockquote class="blockquote">
+		   <div class="textimonial-img">
+		     <img src="resosuces/img/Clients04.png" alt="img17">
+		   </div>
+		   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+		   <footer class="tesmonial-footer">
+	        Mehrab Hossen <a href="#">MH Clup</a>
+	       </footer>
+		 </blockquote>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- happy Chiend -->
+ 
+ <section class="happy-cliend-section">
+   <div class="row">
+     <h3>Happy Clients</h3>
+	 <h2>What people say</h2>
+   </div>
+   <div class="row">
+     <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients01.png" alt="img18">
+	   </div>
+	   <div class="client-review">
+	     <h4>Matthew Dix</h4>
+		 <h2>Graphic Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients02.png" alt="img19">
+	   </div>
+	   <div class="client-review">
+	     <h4>Nick Karvounis</h4>
+		 <h2>Web Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients03.png" alt="img20">
+	   </div>
+	   <div class="client-review">
+	     <h4>Jaelynn Castillo</h4>
+		 <h2>Graphic Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients04.png" alt="img21">
+	   </div>
+	   <div class="client-review">
+	     <h4>Matthew Dix</h4>
+		 <h2>Graphic Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- END SERVICES SECTION -->
+ 
+ <!-- START BLOG SECTION -->
+ 
+ <section class="Blog-section" id="Blog">
+   <div class="row">
+     <h3>Our stories</h3>
+	 <h2>Latest blog</h2>
+   </div>
+   <div class="row">
+     <div class="Blog-content">
+	   <div class="col span_1_of_3 box">
+	     <div class="Blog-img">
+		   <img src="resosuces/img/Block-section01.jpg" alt="img22">
+		 </div>
+		 <div class="Blog-descipson">
+		   <h4>Lorem ipsum dolor sit amet</h4>
+		   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking 
+		   at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as 
+		   will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by 
+		   accident, sometimes on purpose (injected humour and the like).</p>
+		   <data value="Monday,September 14, 2020">
+ 
+ 
+ <!-- START WORK SECTION -->
+ 
+ <section class="services-section" id="work">
+   <div class="row">
+     <h3>We work with</h3>
+	 <h2>Amazing Services</h2>
+   </div>
+   <div class="row">
+     <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="far fa-clock"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Photography</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	      <i class="fas fa-desktop"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Web Design</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fas fa-code"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Web Devolopment</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+   </div>
+   
+   <div class="row">
+     <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fab fa-searchengin"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Seo</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fas fa-video"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Ghaph Design</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_3 box hover-box">
+	   <div class="icon-image">
+	     <i class="fas fa-home"></i>
+	   </div>
+	   <div class="icon-review">
+	     <h4>Css/Html</h4>
+		 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- END WORK SECTION -->
+ 
+ <!-- START SERVICES SECTION -->
+ 
+ <section class="service" id="services">
+   <div class="row">
+     <h3>Service</h3>
+	 <h2>what we do</h2>
+	 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   </div>
+   <div class="row space-img">
+     <div class="col span_1_of_2">
+	   <img src="resosuces/img/what-we-do-section.jpg" alt="img05">
+	 </div>
+	 <div class="col span_1_of_2 space-review">
+	   <h3 class="photography">Photography</h3>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 </div>
+   </div>
+ </section>
+ 
+<!-- testimonial-section -->
+
+ <section class="testimonial-section">
+   <div class="row">
+     <h2>Testimonial</h2>
+   </div>
+   <div class="row">
+     <div class="slider">
+	 
+	   <div>
+	     <blockquote class="blockquote">
+		   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+		   <footer class="blockquote-footer">
+		     Mehrab Hossen From <a href="#">FMH Cloup</a>
+		   </footer>
+		 </blockquote>
+	   </div>
+	   
+	   <div>
+	     <blockquote class="blockquote">
+		   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+		   <footer class="blockquote-footer">
+		     Tomal Khan From <a href="#">FMH Cloup</a>
+		   </footer>
+		 </blockquote>
+	   </div>
+	   
+	 </div>
+   </div>
+ </section>
+ 
+<!-- team section -->
+
+ <section class="team-section">
+   <div class="row">
+     <h3>Who we are</h3>
+	 <h2>Meet our team</h2>
+	 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   </div>
+   <div class="row">
+     <div class="team-area">
+	   <div class="col span_1_of_3">
+	     <div class="single-team">
+		   <div class="img-area">
+		     <img src="resosuces/img/team-person01.jpg" class="img-responsive" alt="img06">
+			 <div class="social">
+			   <ul class="List-inline">
+			      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="img-text">
+		     <h4>John Doe</h4>
+			 <h5>Front-End Developer</h5>
+		   </div>
+		 </div>
+	   </div>
+	   <div class="col span_1_of_3">
+	     <div class="single-team">
+		   <div class="img-area">
+		     <img src="resosuces/img/team-person02.jpg" class="img-responsive" alt="img07">
+			 <div class="social">
+			   <ul class="List-inline">
+			      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="img-text">
+		     <h4>Dave Wood</h4>
+			 <h5>Back-End Developer</h5>
+		   </div>
+		 </div>
+	   </div>
+	   <div class="col span_1_of_3">
+	     <div class="single-team">
+		   <div class="img-area">
+		     <img src="resosuces/img/team-person03.jpg" class="img-responsive" alt="img08">
+			 <div class="social">
+			   <ul class="List-inline">
+			      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			   </ul>
+			 </div>
+		   </div>
+		   <div class="img-text">
+		     <h4>Claire Chedd</h4>
+			 <h5>Graph Desiginar</h5>
+		   </div>
+		 </div>
+	   </div>
+	 </div>
+   </div>
+   
+   <div class="row carosul-img">
+     <img src="resosuces/img/curosal-img.png" alt="img09">
+   </div>
+ </section>
+ 
+<!-- some-of-our-work-section -->
+
+ <section class="some-of-our-work-section">
+   <div class="row">
+     <h3>What we do</h3>
+	 <h2>some of our work</h2>
+	 <p class="Letton-descipson">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   </div>
+   <div class="row our-work-img">
+     <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section01.jpg">
+	   <img src="resosuces/img/work-section01.jpg" alt="img10">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section02.jpg">
+	   <img src="resosuces/img/work-section02.jpg" alt="img11">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section05.jpg">
+	   <img src="resosuces/img/work-section05.jpg" alt="img12">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section06.jpg">
+	   <img src="resosuces/img/work-section06.jpg" alt="img-13">
+	   </a>
+	 </div>
+	 <div class="col span_1_of_4">
+	   <a href="resosuces/img/work-section03.jpg">
+	   <img src="resosuces/img/work-section03.jpg" alt="img-14">
+	   </a>
+	 </div>
+   </div>
+   
+ <!-- testimonial-section02 -->
+ 
+   <div class="row testimonial-section02">
+     <div class="slider">
+	   <div>
+	     <blockquote class="blockquote">
+		   <div class="textimonial-img">
+		     <img src="resosuces/img/textimonial-section.png" alt="img15">
+		   </div>
+		   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+		   <footer class="tesmonial-footer">
+	        Mehrab Hossen <a href="#">MH Clup</a>
+	       </footer>
+		 </blockquote>
+	   </div>
+	   <div>
+	     <blockquote class="blockquote">
+		   <div class="textimonial-img">
+		     <img src="resosuces/img/team-person03.jpg" alt="img16">
+		   </div>
+		   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+		   <footer class="tesmonial-footer">
+	        Mehrab Hossen <a href="#">MH Clup</a>
+	       </footer>
+		 </blockquote>
+	   </div>
+	   <div>
+	     <blockquote class="blockquote">
+		   <div class="textimonial-img">
+		     <img src="resosuces/img/Clients04.png" alt="img17">
+		   </div>
+		   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+		   <footer class="tesmonial-footer">
+	        Mehrab Hossen <a href="#">MH Clup</a>
+	       </footer>
+		 </blockquote>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- happy Chiend -->
+ 
+ <section class="happy-cliend-section">
+   <div class="row">
+     <h3>Happy Clients</h3>
+	 <h2>What people say</h2>
+   </div>
+   <div class="row">
+     <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients01.png" alt="img18">
+	   </div>
+	   <div class="client-review">
+	     <h4>Matthew Dix</h4>
+		 <h2>Graphic Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients02.png" alt="img19">
+	   </div>
+	   <div class="client-review">
+	     <h4>Nick Karvounis</h4>
+		 <h2>Web Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients03.png" alt="img20">
+	   </div>
+	   <div class="client-review">
+	     <h4>Jaelynn Castillo</h4>
+		 <h2>Graphic Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+	 <div class="col span_1_of_2 box">
+	   <div class="client-photo">
+	     <img src="resosuces/img/Clients04.png" alt="img21">
+	   </div>
+	   <div class="client-review">
+	     <h4>Matthew Dix</h4>
+		 <h2>Graphic Design</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- END SERVICES SECTION -->
+ 
+ <!-- START BLOG SECTION -->
+ 
+ <section class="Blog-section" id="Blog">
+   <div class="row">
+     <h3>Our stories</h3>
+	 <h2>Latest blog</h2>
+   </div>
+   <div class="row">
+     <div class="Blog-content">
+	   <div class="col span_1_of_3 box">
+	     <div class="Blog-img">
+		   <img src="resosuces/img/Block-section01.jpg" alt="img22">
+		 </div>
+		 <div class="Blog-descipson">
+		   <h4>Lorem ipsum dolor sit amet</h4>
+		   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking 
+		   at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as 
+		   will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by 
+		   accident, sometimes on purpose (injected humour and the like).</p>
+		   <data value="Monday,September 14, 2020"></data>
+		 </div>
+	   </div>
+	   <div class="col span_1_of_3 box">
+	     <div class="Blog-img">
+		   <img src="resosuces/img/Block-section02.jpg" alt="img23">
+		 </div>
+		 <div class="Blog-descipson">
+		   <h4>sed do eiusmod tempor</h4>
+		   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking 
+		   at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as 
+		   will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by 
+		   accident, sometimes on purpose (injected humour and the like).</p>
+		   <data>
+		     Monday,September 14, 2020
+		   </data>
+		 </div>
+	   </div>
+	   <div class="col span_1_of_3 box">
+	     <div class="Blog-img">
+		   <img src="resosuces/img/Block-section03.jpg" alt="img14">
+		 </div>
+		 <div class="Blog-descipson">
+		   <h4>incididunt ut labore et dolore</h4>
+		   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking 
+		   at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as 
+		   will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by 
+		   accident, sometimes on purpose (injected humour and the like).</p>
+		   <data>
+		     Monday,September 14, 2020
+		   </data>
+		 </div>
+	   </div>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- LOCATION SECTION -->
+ 
+ <section class="Location-section">
+   <div class="row">
+     <div class="Location-title">
+	    <i class="fas fa-map-marker-alt"></i>
+		<h2>Location</h2>
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- END BLOG SECTION -->
+ 
+ <!-- START FOOTER SECTION -->
+ 
+ <section class="footer-section" id="contact">
+   <div class="row">
+     <div class="col span_1_of_3 box">
+	   <img src="resosuces/img/logo.png" alt="img15">
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	   <h4><b>15k</b> followers</h4>
+	   <div class="Icon-box">
+	     <a href="#"><i class="fab fa-facebook-f"></i></a>
+	     <a href="#"><i class="fab fa-twitter"></i></a>
+	     <a href="#"><i class="fab fa-instagram"></i></a>
+	     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+	   </div>
+	   <div class="btn-Subscribe">
+	     <a href="#">Subscribe</a>
+	   </div>
+	 </div>
+	 
+     <div class="col span_1_of_3 blog-section">
+	   <h4>Blog</h4>
+	   <div class="blog-inner">
+	   
+	     <img src="resosuces/img/Block-section02.jpg" alt="img16">
+		 <div class="blog-Description">
+		 <h4>Lorem ipsum dolor sit amet,consectetur adipiscing</h4>
+		 <data class="data">Jan 9, 2016</data>
+		 </div>
+		 
+		 <img src="resosuces/img/Block-section01.jpg" alt="img17">
+		 <div class="blog-Description">
+		 <h4>Lorem ipsum dolor sit amet,consectetur adipiscing</h4>
+		 <data>Jan 9, 2016</data>
+		 </div>
+		 
+		 <img src="resosuces/img/Block-section03.jpg" alt="img18">
+		 <div class="blog-Description">
+		 <h4>Lorem ipsum dolor sit amet,consectetur adipiscing</h4>
+		 <data>Jan 9, 2016</data>
+		 </div>
+		 
+	   </div>
+	 </div>	 
+	 
+	 <div class="col span_1_of_3 instagram-section">
+	   <h4>instagram</h4>
+	    <div class="img-inner">
+		  <img src="resosuces/img/work-section01.jpg" alt="img19">
+		  <img src="resosuces/img/work-section03.jpg" alt="img20">
+		  <img src="resosuces/img/work-section02.jpg" alt="img21">
+		  <img src="resosuces/img/team-person01.jpg" alt="img22">
+		  <img src="resosuces/img/team-person02.jpg" alt="img23">
+		  <img src="resosuces/img/team-person03.jpg" alt="img24">
+		</div>
+	 </div>
+	 
+	 </div>
+   </div>
+ </section>
+ 
+ <!-- END FOOTER SECTION -->
+ 
+ <!-- JS File -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="vendors/js/html5shiv-printshiv.min.js"></script>
+ <script src="vendors/js/respond.min.js"></script>
+ <script src="vendors/js/selectivizr.js"></script>
+ <script src="vendors/js/animate-scrickel.js"></script>
+ <script src="vendors/js/slick.min.js"></script>
+ <script src="vendors/js/Slick-Main.js"></script>
+ <script src="vendors/js/jquery.waypoints.min.js"></script>
+ <script src="resosuces/js/main.js"></script>
+ 
+  
+ 
+ </body>
+</html>
